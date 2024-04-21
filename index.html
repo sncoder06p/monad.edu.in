@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>monad.edu.in</title>
+    <link rel="stylesheet" href="style.css"> <!-- Linking external CSS file -->
+    <script src="script.js" defer></script> <!-- Linking external JavaScript file -->
+</head>
+<body>
+    <div class="overlay"></div> <!-- Semi-transparent overlay -->
+    <div class="container">
+        <img src="logo.png" alt="Your Logo" class="logo"> <!-- Replace "logo.png" with the path to your logo image -->
+        <h2>Campus, N.H. 24, Delhi Hapur Road</h2>
+        <h3>Village & Post Kastla, Kasmabad, P.O Pilakhwa - 245101</h3>
+        <h4>Dist. Hapur (U.P), India</h4>
+        <p>MAIN ODD SEMESTER EXAMINATION RESULT FEB- 2024</p>
+        
+<p class="black-bold-text">SEM 1 :</p>
+<p class="black-bold-text">SEM 3 :</p>
+<p class="black-bold-text">SEM 5 :</p>
+<p class="black-bold-text">SEM 7 :</p>
+<P class="black-bold-text">SEM 9 :</P>
+<form id="searchForm" action="result_page.html" method="get" onsubmit="return validateEnrollmentNumber()">
+    <label for="enrollment_number">Enter Your Enrollment Number:</label><br>
+    <input type="text" id="enrollment_number" name="enrollment_number"><br><br>
+    <input type="submit" value="Search" class="search-button"> <!-- Add a class to target this specific button -->
+    <p id="error-message" style="color: red; display: none;">Please enter a valid enrollment number.</p>
+        </form>
+    </div>
+</body>
+</html>
